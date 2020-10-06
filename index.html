@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Project</title>
+	<link rel="stylesheet"  href="css/style.css">
+</head>
+<body>
+	<div class="calculator">
+		<input type="text" id="result" readonly="">
+		<button onclick="one()">1</button>
+		<button onclick="Tow()">2</button>
+		<button onclick="Three()">3</button>
+		<button onclick="Four()">4</button>
+		<button onclick="Five()">5</button>
+		<button onclick="six()">6</button>
+		<button onclick="Seven()">7</button>
+		<button onclick="Eight()">8</button>
+		<button onclick="Nine()">9</button>
+		<button onclick="Zero()">0</button>
+		<button onclick="Add()">+</button>
+		<button onclick="Sub()">-</button>
+		<button onclick="Dev()">/</button>
+		<button onclick="Mul()">*</button>
+		<button onclick="Equal()">=</button>
+	</div>
+
+
+
+
+
+
+	<script>
+
+		function one(){
+		document.getElementById('result').value += 1;
+		}
+		function Tow(){
+		document.getElementById('result').value += 2;
+		}
+		function Three(){
+		document.getElementById('result').value += 3;
+		}
+		function Four(){
+		document.getElementById('result').value += 4;
+		}
+		function Five(){
+		document.getElementById('result').value += 5;
+		}
+		function six(){
+		document.getElementById('result').value += 6;
+		}
+		function Seven(){
+		document.getElementById('result').value += 7;
+		}
+		function Eight(){
+		document.getElementById('result').value += 8;
+		}
+		function Nine(){
+		document.getElementById('result').value += 9;
+		}
+
+		function Zero(){
+		document.getElementById('result').value += 0;
+		}
+		function Add(){
+		document.getElementById('result').value += "+";
+		}
+		function Sub(){
+		document.getElementById('result').value += "-";
+		}
+		function Dev(){
+		document.getElementById('result').value += "/";
+		}
+		function Mul(){
+		document.getElementById('result').value += "*";
+		}
+		function Equal(){
+		document.getElementById('result').value += "=";
+		}
+		function Equal(){
+		document.getElementById('result').value = eval( document.getElementById('result').value) ;
+		}
+
+
+	</script>
+</body>
+</html>
